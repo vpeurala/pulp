@@ -10,3 +10,4 @@
 .browserify-cache.json
 /.psvm/
 /unit-tests.js
+.idea

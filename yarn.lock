@@ -70,7 +70,7 @@
   version "^3.0.0"
   resolved "https://codeload.github.com/mankyKitty/purescript-distributive/tar.gz/379888b90ea737648a7e1ad1d9d01d11ecf071af"
 
-"@bower_components/purescript-eff@purescript/purescript-eff#^3.1.0":
+"@bower_components/purescript-eff@purescript/purescript-eff#^3.0.0", "@bower_components/purescript-eff@purescript/purescript-eff#^3.1.0":
   version "^3.1.0"
   resolved "https://codeload.github.com/purescript/purescript-eff/tar.gz/06d02be3a92c1e60f665573aff9dbf23b6587cd1"
 
@@ -94,7 +94,7 @@
   version "^0.2.0"
   resolved "https://codeload.github.com/hdgarrood/purescript-externs-check/tar.gz/c7c5313f2e1cd66becfd3bc28a301922b13c9f09"
 
-"@bower_components/purescript-foldable-traversable@purescript/purescript-foldable-traversable#^3.4.0":
+"@bower_components/purescript-foldable-traversable@purescript/purescript-foldable-traversable#^3.0.0", "@bower_components/purescript-foldable-traversable@purescript/purescript-foldable-traversable#^3.4.0":
   version "^3.4.0"
   resolved "https://codeload.github.com/purescript/purescript-foldable-traversable/tar.gz/642ae7d9aebca45ff4f976e6a0d6662719f23346"
 
@@ -206,9 +206,25 @@
   version "^3.0.1"
   resolved "https://codeload.github.com/purescript/purescript-node-readline/tar.gz/2a4628cfdae68aac0fa205e56904b1aa671e165a"
 
-"@bower_components/purescript-node-streams@purescript-node/purescript-node-streams#^3.1.0":
-  version "^3.1.0"
-  resolved "https://codeload.github.com/purescript-node/purescript-node-streams/tar.gz/2ebad3ff7b55eb601d23a1c8b60ecd85f1641546"
+"@bower_components/purescript-node-streams@github:vpeurala/purescript-node-streams.git":
+  version "3.1.0"
+  resolved "github:vpeurala/purescript-node-streams.git#2632bb75f63058b75891466230eb7cced9bd4e7d"
+  dependencies:
+    "@bower_components/purescript-assert" purescript/purescript-assert#^3.0.0
+    "@bower_components/purescript-bifunctors" purescript-contrib/purescript-bifunctors#^3.0.0
+    "@bower_components/purescript-console" purescript/purescript-console#^3.0.0
+    "@bower_components/purescript-control" purescript/purescript-control#^3.0.0
+    "@bower_components/purescript-eff" purescript/purescript-eff#^3.0.0
+    "@bower_components/purescript-either" purescript/purescript-either#^3.0.0
+    "@bower_components/purescript-exceptions" purescript/purescript-exceptions#^3.0.0
+    "@bower_components/purescript-foldable-traversable" purescript/purescript-foldable-traversable#^3.0.0
+    "@bower_components/purescript-invariant" purescript/purescript-invariant#^3.0.0
+    "@bower_components/purescript-maybe" purescript/purescript-maybe#^3.0.0
+    "@bower_components/purescript-monoid" purescript/purescript-monoid#^3.0.0
+    "@bower_components/purescript-newtype" garyb/purescript-newtype#^2.0.0
+    "@bower_components/purescript-node-buffer" purescript/purescript-node-buffer#^3.0.0
+    "@bower_components/purescript-partial" purescript/purescript-partial#^1.2.0
+    "@bower_components/purescript-prelude" purescript/purescript-prelude#^3.0.0
 
 "@bower_components/purescript-node-url@purescript-node/purescript-node-url#^3.0.0":
   version "^3.0.0"

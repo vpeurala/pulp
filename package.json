@@ -103,7 +103,7 @@
     "@bower_components/purescript-node-path": "purescript/purescript-node-path#^2.0.0",
     "@bower_components/purescript-node-process": "purescript-node/purescript-node-process#^5.0.0",
     "@bower_components/purescript-node-readline": "purescript/purescript-node-readline#^3.0.1",
-    "@bower_components/purescript-node-streams": "purescript-node/purescript-node-streams#^3.1.0",
+    "@bower_components/purescript-node-streams": "github:vpeurala/purescript-node-streams.git",
     "@bower_components/purescript-node-url": "purescript-node/purescript-node-url#^3.0.0",
     "@bower_components/purescript-nonempty": "paf31/purescript-nonempty#^4.0.0",
     "@bower_components/purescript-now": "garyb/purescript-now#^3.0.0",
